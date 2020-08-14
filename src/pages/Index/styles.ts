@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.div``;
+
+export const Content = styled.div`
   img {
     margin-bottom: 3.2rem;
   }

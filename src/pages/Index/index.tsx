@@ -1,15 +1,16 @@
 import React from 'react';
 
-import { Container, WelcomeContainer, SkillsContainer } from './styles';
+import { Container, Content, WelcomeContainer, SkillsContainer } from './styles';
 
 import DevImage from '../../assets/DevImage.png';
 import PcImage from '../../assets/PcImage.png';
+import Footer from '../../components/Footer';
 
  function Index () {
    return (
-     <>
+     <Container>
       <h1>Header</h1>
-        <Container>
+        <Content>
               <WelcomeContainer>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sapien tincidunt, nec commodo lacus vulputate. </p>  
 
@@ -21,9 +22,9 @@ import PcImage from '../../assets/PcImage.png';
 
                 <img src={PcImage} alt="Bem-vindo"/>
               </SkillsContainer>
-        </Container>
-      <h1>Footer</h1>
-    </>
+        </Content>
+      <Footer />
+    </Container>
    );
  }
 
