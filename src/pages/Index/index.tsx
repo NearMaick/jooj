@@ -15,6 +15,7 @@ import Footer from '../../components/Footer';
 function Index() {
   return (
     <Container>
+      {/* Parei no header */}
       <h1>Header</h1>
       <Content>
         <WelcomeContainer>

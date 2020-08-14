@@ -17,13 +17,13 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-  }  
+  }
 
   body {
     height: 2240px;
     background: linear-gradient(
-      var(--color-background-primary) 20%, 
-      var(--color-background-secondary) 20%, 
+      var(--color-background-primary) 20%,
+      var(--color-background-secondary) 20%,
       var(--color-background-secondary) 70%,
       var(--color-background-primary) 70%
     );
