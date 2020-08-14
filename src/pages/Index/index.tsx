@@ -1,17 +1,17 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, WelcomeContainer } from './styles';
+
+import DevImage from '../../assets/DevImage.png';
 
  function Index () {
    return (
      <Container>
-        <h1>Index</h1>      
-        <h1>Index</h1>      
-        <h1>Index</h1>      
-        <h1>Index</h1>      
-        <h1>Index</h1>      
-        <h1>Index</h1>      
-        <h1>Index</h1>      
+        <WelcomeContainer>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sapien tincidunt, nec commodo lacus vulputate. </p>  
+
+          <img src={DevImage} alt="Bem-vindo"/>
+        </WelcomeContainer>           
      </Container>
    );
  }

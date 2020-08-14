@@ -4,6 +4,8 @@ export default createGlobalStyle`
   :root {
     --color-background-primary: #221f3b;
     --color-background-secondary: #ebebeb;
+    --color-background-tertiary: #6f4a8e;
+    --color-text: #ebebeb;
 
     display: flex;
     align-items: center;
