@@ -8,7 +8,7 @@ const Footer: React.FC = () => (
   <Container>
     <h1>Footer</h1>
 
-    <img src={TopImage} alt="Voltar ao topo"/>
+    <img src={TopImage} alt="Voltar ao topo" />
   </Container>
 );
 

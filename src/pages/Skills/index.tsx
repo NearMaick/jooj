@@ -5,7 +5,7 @@ function Skills() {
   return (
     <Container>
       <h1>Skills</h1>
-     </Container>
+    </Container>
   );
 }
 
