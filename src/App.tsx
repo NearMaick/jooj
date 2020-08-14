@@ -1,8 +1,15 @@
 import React from 'react';
 
+import GlobalStyle from './styles/global';
+
+import Index from './pages/Index';
+
 function App() {
   return (
-    <h1>Maick Souza</h1>
+    <>
+    <GlobalStyle />
+    <Index />
+    </>
   );
 }
 
