@@ -20,10 +20,10 @@ export default createGlobalStyle`
   }  
 
   body {
-    height: 1700px;
+    height: 2240px;
     background: linear-gradient(
-      var(--color-background-primary) 30%, 
-      var(--color-background-secondary) 30%, 
+      var(--color-background-primary) 20%, 
+      var(--color-background-secondary) 20%, 
       var(--color-background-secondary) 70%,
       var(--color-background-primary) 70%
     );
