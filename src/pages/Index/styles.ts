@@ -18,6 +18,15 @@ export const Container = styled.div`
     background-color: var(--color-background-tertiary);
     color: var(--color-text);
   }
+
+  img, p {
+    width: 22.5rem;
+    height: 19rem;
+  }
+
+  @media(min-width: 970px) {
+    height: 100rem;
+  }
 `;
 
 export const WelcomeContainer = styled.div`
@@ -27,12 +36,12 @@ export const WelcomeContainer = styled.div`
   flex-direction: column-reverse;
   align-items: center;
 
-  img, p {
-    width: 22.5rem;
-    height: 19rem;
-  }
+  @media(min-width: 970px) {
+    flex-direction: row;
+    justify-content: center;
 
-  
+    padding: 20% 0 60%;
+  }  
 `;
 
 export const SkillsContainer = styled.div`
@@ -41,13 +50,15 @@ export const SkillsContainer = styled.div`
   flex-direction: column-reverse;
   align-items: center;
 
-  margin-bottom: 3.2rem;
-
-  img, p {
-    width: 22.5rem;
-    height: 19rem;
+  margin-bottom: 3.2rem;  
+  
+  @media(min-width: 970px) {
+    flex-direction: row;
+    justify-content: space-between;
+    
+    img {
+      margin: 0;
+      padding: 0;
+    }
   }
-
-  
-  
 `;
