@@ -11,12 +11,12 @@ import DevImage from '../../assets/DevImage.png';
 import PcImage from '../../assets/PcImage.png';
 
 import Footer from '../../components/Footer';
+import MenuBurguer from '../../components/BurguerMenu';
 
 function Index() {
   return (
     <Container>
-      {/* Parei no header */}
-      <h1>Header</h1>
+      <MenuBurguer />
       <Content>
         <WelcomeContainer>
           <p>
