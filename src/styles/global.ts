@@ -2,11 +2,9 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   :root {
-    --color-background-primary: #221f3b;
-    --color-background-secondary: #ebebeb;
-    --color-background-tertiary: #6f4a8e;
-    --color-text: #ebebeb;
-
+    --color-background-primary: ${props => props.theme.colors.primary};
+    --color-background-secondary: ${props => props.theme.colors.secondary};
+    --color-background-tertiary: ${props => props.theme.colors.tertiary};
     display: flex;
     align-items: center;
     justify-content: center;
