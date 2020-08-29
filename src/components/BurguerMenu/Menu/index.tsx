@@ -7,19 +7,25 @@ const Menu: React.FC<ToggleOpenModalProps> = ({ open }) => {
   return (
     <StyledMenu open={open}>
       <a href="/">
-        <span role="img" aria-label="about us">💁🏻‍♂️</span>
+        <span role="img" aria-label="about us">
+          💁🏻‍♂️
+        </span>
         About us
       </a>
       <a href="/">
-        <span role="img" aria-label="price">💸</span>
+        <span role="img" aria-label="price">
+          💸
+        </span>
         Pricing
-        </a>
+      </a>
       <a href="/">
-        <span role="img" aria-label="contact">📩</span>
+        <span role="img" aria-label="contact">
+          📩
+        </span>
         Contact
-        </a>
+      </a>
     </StyledMenu>
-  )
-}
+  );
+};
 
 export default Menu;

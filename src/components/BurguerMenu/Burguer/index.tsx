@@ -11,7 +11,7 @@ const Burger: React.FC<ToggleOpenModalProps> = ({ open, setOpen }) => {
       <div />
       <div />
     </StyledBurger>
-  )
-}
+  );
+};
 
 export default Burger;
