@@ -13,7 +13,7 @@ import PcImage from '../../assets/PcImage.png';
 import Footer from '../../components/Footer';
 import MenuBurguer from '../../components/BurguerMenu';
 
-function Index() {
+const Index: React.FC = () => {
   return (
     <Container>
       <MenuBurguer />
@@ -39,6 +39,6 @@ function Index() {
       <Footer />
     </Container>
   );
-}
+};
 
 export default Index;
